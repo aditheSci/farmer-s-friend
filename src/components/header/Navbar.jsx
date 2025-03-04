@@ -9,7 +9,7 @@ const Navbar = () => {
         <div>
             <ul className="flex space-x-5 px-2 text-lg font-circular-web">
                 <li className='text-white'>About Us</li>
-                <li className="bg-green-300 hover:bg-green-400 px-4 rounded-3xl"><Link to={"/signIn"}>Sign In</Link></li>
+                <li className="bg-green-300 hover:bg-green-400 px-4 rounded-3xl"><Link to={"/signin"}>Sign In</Link></li>
             </ul>
         </div>
     </div>
