@@ -8,6 +8,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/pages/Home.jsx";
 import "remixicon/fonts/remixicon.css";
 import Dashboard from "./components/pages/Dashboard.jsx";
+import ImageUploader from "./components/pages/ImageUploader.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard />,
+      },
+      {
+        path: "/imageUpload",
+        element: <ImageUploader />,
       },
     ],
   },
